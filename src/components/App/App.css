@@ -1,0 +1,18 @@
+.app {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.app__content {
+  max-width: 860px;
+  margin: 92px auto;
+}
+
+.app__search {
+  display: flex;
+}
+
+.app__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px
+}
